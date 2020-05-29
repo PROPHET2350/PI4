@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background = "#FFD1DA"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="Welcome Home"
+		android:textColor ="#000"
+		android:textStyle = "bold"
+		android:textAlignment ="center"
+		android:textSize = "50px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1"
+		android:layout_marginTop="20.0dp" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:paddingLeft ="45px"
+		android:paddingRight = "45px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="67.5dp"
+		android:id="@+id/linearLayout1"
+		android:layout_marginTop="47.5dp">
+		<Button
+			android:text="Habitacion 1"
+			android:padding = "15px"
+			android:textColor = "#fff"
+			android:background ="#5A0D1C"
+			android:layout_width="127.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/bt_hab1"/>
+		<Button
+			android:text="Habitacion 2"
+			android:padding = "15px"
+			android:textColor = "#fff"
+			android:background ="#5A0D1C"
+			android:layout_width="127.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/bt_hab2"
+			android:layout_marginLeft="110.5dp" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:paddingLeft ="45px"
+		android:paddingRight = "45px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="67.5dp"
+		android:id="@+id/linearLayout2"
+		android:layout_marginTop="87.5dp">
+		<Button
+			android:text="Sala"
+			android:padding = "15px"
+			android:textColor = "#fff"
+			android:background ="#5A0D1C"
+			android:layout_width="127.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/sala"/>
+		<Button
+			android:text="Comedor"
+			android:padding = "15px"
+			android:textColor = "#fff"
+			android:background ="#5A0D1C"
+			android:layout_width="127.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/comedor"
+			android:layout_marginLeft="110.5dp" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:padding = "45px"
+		android:gravity = "bottom"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout3" >
+
+	</LinearLayout>
+</LinearLayout>
